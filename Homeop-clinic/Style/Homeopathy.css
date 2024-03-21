@@ -1,0 +1,199 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    text-align: justify;
+    background-image: linear-gradient(62deg, #eaf1f9 0%, #eeebf0 100%);
+}
+
+    
+
+/* navabar */
+
+/* yethe navbar che css add kra */
+.logo {
+    height: 60px;
+  
+    border-radius: 50%;
+  
+  }
+  
+
+
+
+/* heading */
+.head {
+    font-size: 15pzpx;
+    line-height: 44px;
+    font-weight: 700;
+    /* color: green; */
+    text-align: center;
+    /* margin: 20px; */
+}
+
+/* info */
+.main {
+    max-height: 1300px;
+    max-width: 1400px;
+
+    margin: 50px;
+}
+
+.main p {
+    max-height: 100px;
+
+    background-image: linear-gradient(62deg, #d9e3f0 0%, #e2e0e3 100%);
+    max-width: 1400;
+
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.5s;
+    padding: 15px;
+}
+
+.main p:hover {
+    transform: scale(1.03);
+    background-image: linear-gradient(62deg, #b3d2f8 0%, #acaaac 100%);
+}
+
+.main p span {
+    font-weight: 900;
+    font-size: 18px;
+}
+
+
+/* images */
+.images {
+
+    min-height: 820px;
+    width: auto;
+    /* margin: 50px; */
+
+
+}
+
+.image {
+    margin: 20px;
+    min-height: 400px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.img {
+    height: 350px;
+    width: 500px;
+    margin: 40px;
+    transition: 1.5s;
+    border: 2px solid gray;
+    border-radius: 20px;
+}
+
+img:hover {
+
+    box-shadow: 3px 4px 6px gray;
+    /* transform: scale(1.1); */
+}
+
+/* cards */
+
+.box {
+    min-height: 250px;
+    width: auto;
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.box .card {
+    border-radius: 20px;
+    min-height: 180px;
+    width: 400px;
+    border: 1px solid rgb(175, 172, 172);
+    margin: 30px;
+    transition: 1s;
+    box-shadow: 3px 4px 9px gray;
+}
+
+.box .card:hover {
+    box-shadow: 4px 6px 10px 3px gray;
+    transform: scale(1.1);
+}
+
+.box h2 {
+    text-align: center;
+    margin: 10px;
+}
+
+.box p {
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+
+
+/* footer */
+
+/* yethe footer che css add kra */
+
+.footer-body {
+  text-align: center;
+
+  padding: 0 20px;
+
+}
+
+.footer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+}
+
+
+
+.f-logo{
+  display: inline-block;
+  
+}
+
+.f-info{
+  text-align: justify;
+}
+
+.footer-child{
+  margin-top: 50px;
+  padding: 10px;
+  width: 350px;
+}
+
+
+
+.footer-icon{
+  height: 40px;
+  margin: 40px 30px;
+  text-align: center;
+}
+
+
+.footer-icon:hover{
+    box-shadow: 5px 5px 5px rgb(53, 50, 50);
+    border-radius: 50%;
+    transform: scale(1.1);
+  
+  
+  }
+
+.list-icon{
+  margin: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+  
