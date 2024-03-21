@@ -74,6 +74,13 @@ html {
 
 }
 
+.color-text{
+    background: -webkit-linear-gradient(#78287d, #0c0b0b);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+   }
+
+
  .para {
     text-align: justify;
     margin: 25px 0px;

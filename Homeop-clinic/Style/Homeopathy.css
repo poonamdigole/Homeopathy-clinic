@@ -83,6 +83,12 @@ body {
 
 }
 
+.color-text{
+  background: -webkit-linear-gradient(#d698db, #692656);
+ background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+ 
 .img {
     height: 350px;
     width: 500px;
