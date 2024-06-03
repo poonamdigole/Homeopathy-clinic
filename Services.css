@@ -42,9 +42,9 @@ font-size: 60px;
     .your{
       text-align: center;
       margin: 20px;
-      background: -webkit-linear-gradient(#ef50fb, #731b5a);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
+      /* background: -webkit-linear-gradient(#ef50fb, #731b5a); */
+      /* -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; */
     
     font-size: 50px;
     
