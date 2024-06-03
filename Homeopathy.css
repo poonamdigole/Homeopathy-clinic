@@ -36,16 +36,16 @@ body {
 .main {
     max-height: 1300px;
     max-width: 1400px;
-
+      
     margin: 50px;
 }
 
 .main p {
-    max-height: 100px;
+  
 
     background-image: linear-gradient(62deg, #d9e3f0 0%, #e2e0e3 100%);
     max-width: 1400;
-
+   
     font-size: 16px;
     font-weight: 600;
     transition: 0.5s;
@@ -64,13 +64,10 @@ body {
 
 
 /* images */
-.images {
-
+.images {  
     min-height: 820px;
     width: auto;
     /* margin: 50px; */
-
-
 }
 
 .image {
@@ -92,7 +89,8 @@ body {
 .img {
     height: 350px;
     width: 500px;
-    margin: 40px;
+    margin: 40px; 
+    padding: 0 2px;
     transition: 1.5s;
     border: 2px solid gray;
     border-radius: 20px;
@@ -118,7 +116,7 @@ img:hover {
 .box .card {
     border-radius: 20px;
     min-height: 180px;
-    width: 400px;
+    width: 300px;
     border: 1px solid rgb(175, 172, 172);
     margin: 30px;
     transition: 1s;
@@ -151,7 +149,7 @@ img:hover {
 .footer-body {
   text-align: center;
 
-  padding: 0 20px;
+
 
 }
 
@@ -176,7 +174,7 @@ img:hover {
 .footer-child{
   margin-top: 50px;
   padding: 10px;
-  width: 350px;
+  width: 300px;
 }
 
 
@@ -201,5 +199,21 @@ img:hover {
   text-decoration: none;
   color: black;
 }
+@media screen and (max-width: 600px) {
 
-  
+  .img {
+    height: 350px;
+    width: 300px;
+    margin: 40px; 
+    padding: 0 2px;
+    transition: 1.5s;
+    border: 2px solid gray;
+    border-radius: 20px;
+}
+.images {  
+  margin-top: 200px;
+  min-height: 820px;
+  width: auto;
+  /* margin: 50px; */
+}
+}
