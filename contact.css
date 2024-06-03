@@ -5,7 +5,6 @@ html {
 
 
 /* navbar */
-
 .logo {
   height: 60px;
   border-radius: 50%;
@@ -110,24 +109,50 @@ html {
     font-weight: 400;
 }
 
-.map {
+/* .map {
     max-height: 700px;
     min-width: 600px;
     margin: 20px 0px;
 
-}
+} */
 
 
 /* form */
 
 .form {
     width: 70%;
-    padding: 10px;
+    padding: 30px;
     border: none;
     margin: 50px auto;
     box-shadow: 2px 2px 20px 1px gray;
-
+}
+.iframe{
+    width:500px;
+    height:500px;
+    margin: 20px 0px; 
 }
 
+@media screen and (max-width: 600px) {
+    .iframe{
+        width:95vw;
+        height:300px;
+        margin: 20px 0px; 
+    }
+    .form {
+        width: 100%;
+        padding: 5px;
+        border: none;
+        
+       
+        box-shadow: 2px 2px 20px 1px gray;
+    }
 
+    .contact-form-main{
+        padding: 10px;
+        margin: 10px;
+    }
+    
+
+    
+}
 

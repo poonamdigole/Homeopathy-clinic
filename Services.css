@@ -8,11 +8,6 @@
   border-radius: 50%;
 
 }
-
-
-
-
-
 .service{
   text-align: center;
   background-color: #1475e3;
@@ -114,7 +109,7 @@ nav a:hover {
 background-image: linear-gradient(62deg, #eaf1f9 0%, #eeebf0 100%);
 }
 section {
-  padding: 20px;
+
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -136,6 +131,7 @@ transition: transform 0.3s ease, box-shadow 0.3s ease;
 .main-card{
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   flex-direction: column;
 }
 
@@ -189,12 +185,6 @@ flex-wrap: wrap;
  /* footer */
 
 
-.footer-body {
-
-  padding: 0 20px;
-  width: 100%;
-
-}
 
 .footer{
   display: flex;
@@ -228,5 +218,30 @@ flex-wrap: wrap;
   text-decoration: none;
   color: black;
 }
+.imgservice{
+  height: 600px;
+   width: 1600px;
+}
 
+@media screen and (max-width: 600px) {
+  section {
 
+    display: block;
+    padding: 0%;
+   
+  }
+  .card-child {
+ 
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    width: 300px;
+    animation: fadeIn 0.5s ease-in-out; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+}
